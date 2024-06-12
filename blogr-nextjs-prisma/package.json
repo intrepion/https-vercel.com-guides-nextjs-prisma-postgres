@@ -9,7 +9,7 @@
   "description": "",
   "devDependencies": {
     "@types/node": "17.0.14",
-    "@types/react": "17.0.38",
+    "@types/react": "^18.3.3",
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.4",
     "prettier": "^3.3.2",
