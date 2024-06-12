@@ -28,6 +28,8 @@
   "name": "hello-next",
   "scripts": {
     "build": "next build",
+    "cypress": "cypress open",
+    "cypress:run": "cypress run",
     "dev": "next",
     "lint": "next lint",
     "prettier": "prettier --write --ignore-unknown .",
