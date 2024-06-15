@@ -4,6 +4,9 @@
 name: Node.js CI
 
 env:
+  GITHUB_ID: $${{ secrets.NEXTAUTH_GITHUB_ID }}
+  GITHUB_SECRET: $${{ secrets.NEXTAUTH_GITHUB_SECRET }}
+  NEXTAUTH_URL: $${{ secrets.NEXTAUTH_URL }}
   POSTGRES_DATABASE: ${{ secrets.POSTGRES_DATABASE }}
   POSTGRES_HOST: ${{ secrets.POSTGRES_HOST }}
   POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
